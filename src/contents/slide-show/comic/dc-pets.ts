@@ -1,0 +1,186 @@
+import { staticFile } from "remotion";
+
+const img = (name: string) => staticFile(`comic/dc/${name}`);
+
+export const data = [
+  {
+    topTitle: "Superman",
+    bottomTitle: "Krypto the Superdog",
+    topImageSrc: img("Superman.jpg"),
+    bottomImageSrc: img("Krypto the Superdog.jpg"),
+  },
+  {
+    topTitle: "Supergirl",
+    bottomTitle: "Streaky the Supercat",
+    topImageSrc: img("Supergirl.jpg"),
+    bottomImageSrc: img("Streaky the Supercat.jpg"),
+  },
+  {
+    topTitle: "Superboy",
+    bottomTitle: "Beppo the Super-Monkey",
+    topImageSrc: img("Superboy (Kon-El).jpg"),
+    bottomImageSrc: img("Beppo the Super-Monkey.webp"),
+  },
+  {
+    topTitle: "Supergirl (Pre-Crisis)",
+    bottomTitle: "Comet the Super-Horse",
+    topImageSrc: img("Supergirl (Pre-Crisis).jpg"),
+    bottomImageSrc: img("Comet the Super-Horse.jpg"),
+  },
+  {
+    topTitle: "Legion of Super-Heroes",
+    bottomTitle: "Proty",
+    topImageSrc: img("Legion of Super-Heroes.jpg"),
+    bottomImageSrc: img("Proty.webp"),
+  },
+  {
+    topTitle: "Batman (Bruce Wayne)",
+    bottomTitle: "Ace the Bat-Hound",
+    topImageSrc: img("Batman.jpg"),
+    bottomImageSrc: img("Ace the Bat-Hound.jpg"),
+  },
+  {
+    topTitle: "Robin (Damian Wayne)",
+    bottomTitle: "Titus",
+    topImageSrc: img("Robin (Damian Wayne).jpg"),
+    bottomImageSrc: img("Titus.jpg"),
+  },
+  {
+    topTitle: "Robin (Damian Wayne)",
+    bottomTitle: "Bat-Cow",
+    topImageSrc: img("Robin (Damian Wayne).jpg"),
+    bottomImageSrc: img("Bat-Cow.jpg"),
+  },
+  {
+    topTitle: "Robin (Damian Wayne)",
+    bottomTitle: "Alfred the Cat",
+    topImageSrc: img("Robin (Damian Wayne).jpg"),
+    bottomImageSrc: img("Alfred the Cat.jpg"),
+  },
+  {
+    topTitle: "Robin (Damian Wayne)",
+    bottomTitle: "Goliath",
+    topImageSrc: img("Robin (Damian Wayne).jpg"),
+    bottomImageSrc: img("Goliath.jpg"),
+  },
+  {
+    topTitle: "Red Lantern Atrocitus",
+    bottomTitle: "Dex-Starr",
+    topImageSrc: img("Red Lantern Atrocitus.jpg"),
+    bottomImageSrc: img("Dex-Starr.jpg"),
+  },
+  {
+    topTitle: "Green Lantern Corps",
+    bottomTitle: "Ch'p",
+    topImageSrc: img("Green Lantern Corps.jpg"),
+    bottomImageSrc: img("Ch'p.jpg"),
+  },
+  {
+    topTitle: "Green Lantern Corps",
+    bottomTitle: "B'dg",
+    topImageSrc: img("Green Lantern Corps.jpg"),
+    bottomImageSrc: img("B'dg.jpg"),
+  },
+  {
+    topTitle: "Green Lantern Corps",
+    bottomTitle: "G'nort",
+    topImageSrc: img("Green Lantern Corps.jpg"),
+    bottomImageSrc: img("G'nort.jpg"),
+  },
+  {
+    topTitle: "Aquaman",
+    bottomTitle: "Storm (Seahorse)",
+    topImageSrc: img("Aquaman.jpg"),
+    bottomImageSrc: img("Storm (Seahorse).jpg"),
+  },
+  {
+    topTitle: "Aquaman",
+    bottomTitle: "Topo (Octopus)",
+    topImageSrc: img("Aquaman.jpg"),
+    bottomImageSrc: img("Topo (Octopus).jpg"),
+  },
+  {
+    topTitle: "Aquaman",
+    bottomTitle: "Puska (Seal)",
+    topImageSrc: img("Aquaman.jpg"),
+    bottomImageSrc: img("Puska (Seal).jpg"),
+  },
+  {
+    topTitle: "Aquaman",
+    bottomTitle: "Arkland (Orca)",
+    topImageSrc: img("Aquaman.jpg"),
+    bottomImageSrc: img("Arkland (Orca).jpg"),
+  },
+  {
+    topTitle: "Justice League Dark",
+    bottomTitle: "Detective Chimp",
+    topImageSrc: img("Justice League Dark.jpg"),
+    bottomImageSrc: img("Detective Chimp.webp"),
+  },
+  {
+    topTitle: "Wonder Twins",
+    bottomTitle: "Gleek",
+    topImageSrc: img("Wonder Twins.jpg"),
+    bottomImageSrc: img("Gleek.webp"),
+  },
+  {
+    topTitle: "The Flash (Jay Garrick)",
+    bottomTitle: "Whatzit",
+    topImageSrc: img("The Flash (Jay Garrick).jpg"),
+    bottomImageSrc: img("Whatzit.webp"),
+  },
+  {
+    topTitle: "Shazam Family",
+    bottomTitle: "Hoppy the Marvel Bunny",
+    topImageSrc: img("Shazam Family.jpg"),
+    bottomImageSrc: img("Hoppy the Marvel Bunny.jpg"),
+  },
+  {
+    topTitle: "Wonder Woman",
+    bottomTitle: "Jumpa (Kanga)",
+    topImageSrc: img("Wonder Woman.jpg"),
+    bottomImageSrc: img("Jumpa (Kanga).webp"),
+  },
+  {
+    topTitle: "Harley Quinn",
+    bottomTitle: "Bud & Lou (Hyenas)",
+    topImageSrc: img("Harley Quinn.jpg"),
+    bottomImageSrc: img("Bud & Lou (Hyenas).jpg"),
+  },
+  {
+    topTitle: "Lobo",
+    bottomTitle: "Dawg",
+    topImageSrc: img("Lobo.jpg"),
+    bottomImageSrc: img("Dawg.webp"),
+  },
+  {
+    topTitle: "Adam Strange",
+    bottomTitle: "Zyzix",
+    topImageSrc: img("Adam Strange.jpg"),
+    bottomImageSrc: img("Zyzix.webp"),
+  },
+  {
+    topTitle: "Klarion the Witch Boy",
+    bottomTitle: "Teekl",
+    topImageSrc: img("Klarion the Witch Boy.jpg"),
+    bottomImageSrc: img("Teekl.jpg"),
+  },
+  {
+    topTitle: "Seven Soldiers of Victory",
+    bottomTitle: "Pinky",
+    topImageSrc: img("Seven Soldiers of Victory.jpg"),
+    bottomImageSrc: img("Pinky.jpg"),
+  },
+  {
+    topTitle: "U.S. Army (DC)",
+    bottomTitle: "Rex the Wonder Dog",
+    topImageSrc: img("U.S. Army (DC).jpg"),
+    bottomImageSrc: img("Rex the Wonder Dog.jpg"),
+  },
+  {
+    topTitle: "Aquaman",
+    bottomTitle: "Tuska (Walrus)",
+    topImageSrc: img("Aquaman.jpg"),
+    bottomImageSrc: img("Tuska (Walrus).webp"),
+  },
+];
