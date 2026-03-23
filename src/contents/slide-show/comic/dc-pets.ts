@@ -4,6 +4,18 @@ const img = (name: string) => staticFile(`comic/dc/${name}`);
 
 export const data = [
   {
+    topTitle: "Power Girl",
+    bottomTitle: "Stinky",
+    topImageSrc: img("Power Girl.jpg"),
+    bottomImageSrc: img("Stinky.jpg"),
+  },
+  {
+    topTitle: "Wonder Woman",
+    bottomTitle: "Pegasus",
+    topImageSrc: img("Wonder Woman.jpg"),
+    bottomImageSrc: img("Pegasus.jpg"),
+  },
+  {
     topTitle: "Superman",
     bottomTitle: "Krypto the Superdog",
     topImageSrc: img("Superman.jpg"),
@@ -14,6 +26,72 @@ export const data = [
     bottomTitle: "Streaky the Supercat",
     topImageSrc: img("Supergirl.jpg"),
     bottomImageSrc: img("Streaky the Supercat.jpg"),
+  },
+  {
+    topTitle: "Joker",
+    bottomTitle: "Jackanapes",
+    topImageSrc: img("Penguin.jpg"),
+    bottomImageSrc: img("Captain.jpg"),
+  },
+  {
+    topTitle: "Lex Luthor",
+    bottomTitle: "Licks Luthor",
+    topImageSrc: img("Lex Luthor.jpg"),
+    bottomImageSrc: img("Mercy Graves.jpg"),
+  },
+  {
+    topTitle: "Absolute Flash",
+    bottomTitle: "Grodd",
+    topImageSrc: img("Gorilla Grodd.jpg"),
+    bottomImageSrc: img("Mercy Graves.jpg"),
+  },
+  {
+    topTitle: "Green Arrow",
+    bottomTitle: "George the arrowdog",
+    topImageSrc: img("Lex Luthor.jpg"),
+    bottomImageSrc: img("Mercy Graves.jpg"),
+  },
+  {
+    topTitle: "Plastic Man",
+    bottomTitle: "Flexi",
+    topImageSrc: img("Plastic Man.jpg"),
+    bottomImageSrc: img("Hula-Hula.jpg"),
+  },
+  {
+    topTitle: "Martian Manhunter",
+    bottomTitle: "Zook",
+    topImageSrc: img("Martian Manhunter.jpg"),
+    bottomImageSrc: img("Fluffy.jpg"),
+  },
+  {
+    topTitle: "Bizarro",
+    bottomTitle: "Krypto II",
+    topImageSrc: img("Bizarro.jpg"),
+    bottomImageSrc: img("Krypto.jpg"),
+  },
+  {
+    topTitle: "Lobo",
+    bottomTitle: "Dawg",
+    topImageSrc: img("Bizarro.jpg"),
+    bottomImageSrc: img("Bizarro-Krypto.jpg"),
+  },
+  {
+    topTitle: "Starfire",
+    bottomTitle: "Silkie",
+    topImageSrc: img("Bizarro.jpg"),
+    bottomImageSrc: img("Bizarro-Krypto.jpg"),
+  },
+  {
+    topTitle: "Penguin",
+    bottomTitle: "Penguins",
+    topImageSrc: img("Supergirl.jpg"),
+    bottomImageSrc: img("Hcat.jpg"),
+  },
+  {
+    topTitle: "Catwoman",
+    bottomTitle: "Isis",
+    topImageSrc: img("Catwoman.jpg"),
+    bottomImageSrc: img("Isis.jpg"),
   },
   {
     topTitle: "Superboy",
@@ -64,29 +142,29 @@ export const data = [
     bottomImageSrc: img("Goliath.jpg"),
   },
   {
-    topTitle: "Red Lantern Atrocitus",
+    topTitle: "Atrocitus",
     bottomTitle: "Dex-Starr",
     topImageSrc: img("Red Lantern Atrocitus.jpg"),
     bottomImageSrc: img("Dex-Starr.jpg"),
   },
-  {
-    topTitle: "Green Lantern Corps",
-    bottomTitle: "Ch'p",
-    topImageSrc: img("Green Lantern Corps.jpg"),
-    bottomImageSrc: img("Ch'p.jpg"),
-  },
+  // {
+  //   topTitle: "Green Lantern",
+  //   bottomTitle: "Ch'p",
+  //   topImageSrc: img("Green Lantern.jpg"),
+  //   bottomImageSrc: img("Ch'p.jpg"),
+  // },
   {
     topTitle: "Green Lantern Corps",
     bottomTitle: "B'dg",
     topImageSrc: img("Green Lantern Corps.jpg"),
     bottomImageSrc: img("B'dg.jpg"),
   },
-  {
-    topTitle: "Green Lantern Corps",
-    bottomTitle: "G'nort",
-    topImageSrc: img("Green Lantern Corps.jpg"),
-    bottomImageSrc: img("G'nort.jpg"),
-  },
+  // {
+  //   topTitle: "Green Lantern Corps",
+  //   bottomTitle: "G'nort",
+  //   topImageSrc: img("Green Lantern Corps.jpg"),
+  //   bottomImageSrc: img("G'nort.jpg"),
+  // },
   {
     topTitle: "Aquaman",
     bottomTitle: "Storm (Seahorse)",
@@ -99,17 +177,23 @@ export const data = [
     topImageSrc: img("Aquaman.jpg"),
     bottomImageSrc: img("Topo (Octopus).jpg"),
   },
-  {
-    topTitle: "Aquaman",
-    bottomTitle: "Puska (Seal)",
-    topImageSrc: img("Aquaman.jpg"),
-    bottomImageSrc: img("Puska (Seal).jpg"),
-  },
+  // {
+  //   topTitle: "Aquaman",
+  //   bottomTitle: "Puska (Seal)",
+  //   topImageSrc: img("Aquaman.jpg"),
+  //   bottomImageSrc: img("Puska (Seal).jpg"),
+  // },
   {
     topTitle: "Aquaman",
     bottomTitle: "Arkland (Orca)",
     topImageSrc: img("Aquaman.jpg"),
     bottomImageSrc: img("Arkland (Orca).jpg"),
+  },
+  {
+    topTitle: "Peacemaker",
+    bottomTitle: "Eagly",
+    topImageSrc: img("Birds of Prey.jpg"),
+    bottomImageSrc: img("Eagly.jpg"),
   },
   {
     topTitle: "Justice League Dark",
@@ -130,10 +214,26 @@ export const data = [
     bottomImageSrc: img("Whatzit.webp"),
   },
   {
+    topTitle: "The Flash",
+    bottomTitle: "Flashback",
+  },
+  {
     topTitle: "Shazam Family",
     bottomTitle: "Hoppy the Marvel Bunny",
     topImageSrc: img("Shazam Family.jpg"),
     bottomImageSrc: img("Hoppy the Marvel Bunny.jpg"),
+  },
+  {
+    topTitle: "Metamorpho",
+    bottomTitle: "Element Dog",
+    topImageSrc: img("Shazam Family.jpg"),
+    bottomImageSrc: img("Hoppy the Marvel Bunny.jpg"),
+  },
+  {
+    topTitle: "Shazam",
+    bottomTitle: "Tawky Tawny",
+    topImageSrc: img("Shazam.jpg"),
+    bottomImageSrc: img("Tawky Tawny.jpg"),
   },
   {
     topTitle: "Wonder Woman",
@@ -165,18 +265,18 @@ export const data = [
     topImageSrc: img("Klarion the Witch Boy.jpg"),
     bottomImageSrc: img("Teekl.jpg"),
   },
-  {
-    topTitle: "Seven Soldiers of Victory",
-    bottomTitle: "Pinky",
-    topImageSrc: img("Seven Soldiers of Victory.jpg"),
-    bottomImageSrc: img("Pinky.jpg"),
-  },
-  {
-    topTitle: "U.S. Army (DC)",
-    bottomTitle: "Rex the Wonder Dog",
-    topImageSrc: img("U.S. Army (DC).jpg"),
-    bottomImageSrc: img("Rex the Wonder Dog.jpg"),
-  },
+  // {
+  //   topTitle: "Seven Soldiers of Victory",
+  //   bottomTitle: "Pinky",
+  //   topImageSrc: img("Seven Soldiers of Victory.jpg"),
+  //   bottomImageSrc: img("Pinky.jpg"),
+  // },
+  // {
+  //   topTitle: "U.S. Army (DC)",
+  //   bottomTitle: "Rex the Wonder Dog",
+  //   topImageSrc: img("U.S. Army (DC).jpg"),
+  //   bottomImageSrc: img("Rex the Wonder Dog.jpg"),
+  // },
   {
     topTitle: "Aquaman",
     bottomTitle: "Tuska (Walrus)",
@@ -184,3 +284,7 @@ export const data = [
     bottomImageSrc: img("Tuska (Walrus).webp"),
   },
 ];
+
+//  teelk, Klarion's cat.
+// Aquaman also had Tusky.
+// Once again Major Mynah  pet of The Atom, 1969,
