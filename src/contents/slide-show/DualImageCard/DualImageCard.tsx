@@ -346,8 +346,8 @@ export const DualImageCard: React.FC<DualImageCardProps> = ({
         >
           {mergeTitle ? (
             <>
-              {data.topTitle} <span className="text-red-600">❤️</span>{" "}
-              {data.bottomTitle}
+              {data.topTitle}
+              {/* {data.bottomTitle} */}
             </>
           ) : (
             data.topTitle

@@ -2,10 +2,10 @@ import React from "react";
 import { Composition } from "remotion";
 import { DualImageVideo } from "./DualImageVideo";
 import { DualImageCarouselSchema } from "./DualImageCarousel";
-import { data } from "../comic/dc-pets";
+import { data } from "../comic/marvel-villians-movie-comic";
 
 // ── Shared constants (must mirror DualImageCarousel.tsx) ──────────────────
-const DURATION_PER_CARD = 5; // seconds per card
+const DURATION_PER_CARD = 4.5; // seconds per card
 const FPS = 60;
 const CARD_WIDTH = 628;
 const GAP = 20;
@@ -45,7 +45,7 @@ const DualImageCardSlideShow = () => {
         type: "comic",
         durationPerCard: DURATION_PER_CARD,
         items: data,
-        mergeTitle: false,
+        mergeTitle: true,
       }}
     />
   );
