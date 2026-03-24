@@ -375,7 +375,7 @@ export const SingleImageCard: React.FC<SingleImageCardProps> = ({
             color: `rgba(255, 255, 255, ${textOpacity})`,
           }}
         >
-          {data.title} ({data.description?.slice(3)})
+          {data.title}
         </h2>
       </div>
 
@@ -396,14 +396,15 @@ export const SingleImageCard: React.FC<SingleImageCardProps> = ({
           }}
         >
           <div className="text-[75px]">
-            {data.gross?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} $
-            {/* {data.description?.split(/<br\s*\/?>/i).map((line, i, arr) => (
+            {/* {data.gross?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")} $ */}
+            {data.description?.split(/<br\s*\/?>/i).map((line, i, arr) => (
               <React.Fragment key={i}>
                 {line}
                 {i < arr.length - 1 && <br />}
               </React.Fragment>
-            ))} */}
+            ))}{" "}
           </div>
+          <span className="text-[75px] -mt-8">Years Old</span>
           {/* <div className="-mt-6">Years Old</div> */}
           {/* <div className="mb-4">Worldwide Gross: {data.gross}</div> */}
         </div>

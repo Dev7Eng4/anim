@@ -3,21 +3,9 @@ import {
   SingleImageCarousel,
   SingleImageCarouselSchema,
 } from "./SingleImageCarousel";
-import { data } from "../comic/most-money-grossing-movies";
+import { data } from "../amime/onepiece-oldest";
 
 export const SingleSlideShow = () => {
-  const d = data
-    .map((item) => ({
-      title: item.title,
-      description: item.description,
-      gross: item.gross,
-    }))
-    .sort((a, b) => a.gross - b.gross)
-    .slice(0, 50)
-    .reverse();
-
-  console.log(d);
-
   return (
     <Composition
       id="SingleCardSlideShow"
@@ -36,11 +24,11 @@ export const SingleSlideShow = () => {
         type: "comic",
         items: data,
         title: {
-          height: 180,
-          fontSize: 55,
+          height: 130,
+          fontSize: 65,
         },
         description: {
-          height: 120,
+          height: 240,
           fontSize: 70,
           background: "linear-gradient(180deg, #1A0B2E 0%, #090919 100%)",
         },
